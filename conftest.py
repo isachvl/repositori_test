@@ -10,7 +10,7 @@ def open_browser():
 
     options = Options()
     options.add_argument('--headless')#new
-    options.binary_location = "/snap/firefox/current/usr/lib/firefox/firefox"
+    #options.binary_location = "/snap/firefox/current/usr/lib/firefox/firefox"
 
     browser = webdriver.Firefox(options=options)
 
